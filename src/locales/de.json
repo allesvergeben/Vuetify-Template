@@ -1,0 +1,36 @@
+{
+  "home": {
+    "heading": "Willkommen bei Vuetify",
+    "subheading": "Für Hilfe oder für das zusammenarbeiten <br /> mit anderen Vuetify Entwicklern tritt dem Discord bei: ",
+    "discord": "Vuetify Discord",
+    "message": "Eine abgewandelte Version des Hello World Templates durch",
+    "homepage": "Laurin Dörre",
+    "whatsNext": {
+      "headline": "Was jetzt?",
+      "text": [
+        "Schau dir die Komponenten an",
+        "Wähle ein Layout",
+        "Oft gestellte Fragen"
+      ]
+    },
+    "ecosystem": {
+      "headline": "Ökosystem",
+      "text": [
+        "vuetify-loader",
+        "GitHub",
+        "awesome-vuetify"
+      ]
+    },
+    "importantLinks": {
+      "headline": "Wichtige Links",
+      "text": [
+        "Dokumentation",
+        "Chat",
+        "Gemacht mit Vuetify",
+        "Twitter",
+        "Artikel"
+      ]
+    }
+  }
+}
+

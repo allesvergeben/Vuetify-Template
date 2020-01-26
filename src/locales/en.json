@@ -1,0 +1,22 @@
+{
+  "home": {
+    "heading": "Welcome to Vuetify",
+    "subheading": "For help and collaboration with other Vuetify developers, <br /> please join our online ",
+    "discord": "Discord Community",
+    "message": "Just a modded Hello World by ",
+    "homepage": "Laurin Dörre",
+    "whatsNext": {
+      "headline": "What's next?",
+      "text": ["Explore components", "Select a layout", "Frequently Asked Questions"]
+    },
+    "ecosystem": {
+      "headline": "Ecosystem",
+      "text": ["vuetify-loader","GitHub","awesome-vuetify"]
+    },
+    "importantLinks": {
+      "headline": "Important Links",
+      "text": ["Documentation","Chat","Made with Vuetify","Twitter","Articles"]
+    }
+}
+}
+
