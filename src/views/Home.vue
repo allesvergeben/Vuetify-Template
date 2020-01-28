@@ -1,11 +1,17 @@
 <template>
-    <HelloWorld/>
+    <div>
+        <Hero />
+        <Installed />
+        <Start />
+    </div>
 </template>
 
 <script>
     export default {
         components: {
-            HelloWorld: () => import('../components/HelloWorld')
+            Hero: () => import('../components/sections/Hero'),
+            Installed: () => import('../components/sections/Installed'),
+            Start: () => import('../components/sections/Start')
         },
         name: "Home"
     }

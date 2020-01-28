@@ -1,34 +1,73 @@
 {
   "home": {
-    "heading": "Willkommen bei Vuetify",
-    "subheading": "Für Hilfe oder für das zusammenarbeiten <br /> mit anderen Vuetify Entwicklern tritt dem Discord bei: ",
-    "discord": "Vuetify Discord",
-    "message": "Eine abgewandelte Version des Hello World Templates durch",
-    "homepage": "Laurin Dörre",
-    "whatsNext": {
-      "headline": "Was jetzt?",
-      "text": [
-        "Schau dir die Komponenten an",
-        "Wähle ein Layout",
-        "Oft gestellte Fragen"
-      ]
+    "hero": {
+      "title": "VuetifyTemplate",
+      "description": "A simple Vuetify Template with structure and preinstalled plugins"
     },
-    "ecosystem": {
-      "headline": "Ökosystem",
-      "text": [
-        "vuetify-loader",
-        "GitHub",
-        "awesome-vuetify"
-      ]
-    },
-    "importantLinks": {
-      "headline": "Wichtige Links",
-      "text": [
-        "Dokumentation",
-        "Chat",
-        "Gemacht mit Vuetify",
-        "Twitter",
-        "Artikel"
+    "install": {
+      "header": "All plugins and implementations",
+      "subheader": "Plugins",
+      "plugins": [
+        {
+          "title": "vue-router",
+          "subtitle": "Route between different Views",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        },
+        {
+          "title": "vuex",
+          "subtitle": "Route between different Views",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        },
+        {
+          "title": "Themes",
+          "subtitle": "Route between different Views",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        },
+        {
+          "title": "i18n",
+          "subtitle": "Route between different Views",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        }
       ]
     }
   }

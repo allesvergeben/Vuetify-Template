@@ -4,6 +4,9 @@
             color="primary"
             dark
     >
+        <v-btn icon @click="toggleDrawer">
+            <v-icon>mdi-menu</v-icon>
+        </v-btn>
         <div class="d-flex align-center">
             <v-img
                     alt="Vuetify Logo"
@@ -24,14 +27,14 @@
             />
         </div>
 
-        <v-spacer></v-spacer>
+        <v-spacer/>
         <v-toolbar-items>
             <v-btn
                     href="https://github.com/vuetifyjs/vuetify/releases/latest"
                     target="_blank"
                     text
             >
-                <span class="mr-2">Latest Release</span>
+                <span class="mr-2">Vuetify - Latest Release</span>
                 <v-icon>mdi-open-in-new</v-icon>
             </v-btn>
             <v-menu offset-y>
@@ -64,11 +67,17 @@
             </v-menu>
         </v-toolbar-items>
     </v-app-bar>
+
 </template>
 
 <script>
+    import { mapMutations } from 'vuex'
+
     export default {
-        name: "CoreAppBar"
+        name: "CoreAppBar",
+        methods: {
+            ...mapMutations(['toggleDrawer']),
+        }
     }
 </script>
 

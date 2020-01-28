@@ -1,22 +1,118 @@
 {
   "home": {
-    "heading": "Welcome to Vuetify",
-    "subheading": "For help and collaboration with other Vuetify developers, <br /> please join our online ",
-    "discord": "Discord Community",
-    "message": "Just a modded Hello World by ",
-    "homepage": "Laurin Dörre",
-    "whatsNext": {
-      "headline": "What's next?",
-      "text": ["Explore components", "Select a layout", "Frequently Asked Questions"]
+    "hero": {
+      "title": "VuetifyTemplate",
+      "description": "A simple Vuetify Template with structure and preinstalled plugins"
     },
-    "ecosystem": {
-      "headline": "Ecosystem",
-      "text": ["vuetify-loader","GitHub","awesome-vuetify"]
+    "install": {
+      "header": "All plugins and implementations",
+      "subheader": "Plugins",
+      "plugins": [
+        {
+          "title": "vue-router",
+          "subtitle": "Route between different Views",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        },
+        {
+          "title": "vuex",
+          "subtitle": "Store states",
+          "text": "Implemented in the Side Drawer",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        },
+        {
+          "title": "Themes",
+          "subtitle": "Custom Themes",
+          "text": "Switch between dark and light theme",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        },
+        {
+          "title": "i18n",
+          "subtitle": "Route between different Views",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "Documentation",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Code",
+              "link": "/lost"
+            }
+          ]
+        }
+      ]
     },
-    "importantLinks": {
-      "headline": "Important Links",
-      "text": ["Documentation","Chat","Made with Vuetify","Twitter","Articles"]
+    "start": {
+      "header": "whats next",
+      "subheader": "Start",
+      "steps": [
+        {
+          "step": "Clone",
+          "title": "Use the GitHub Repo as a Template",
+          "text": "Easy just click on the template button at the top right",
+          "buttons": [
+            {
+              "text": "GitHub Repository",
+              "link": "https://github.com/allesvergeben/Vuetify-Template"
+            }
+          ]
+        },
+        {
+          "step": "Need help?",
+          "title": "Join the Vuetify Discord",
+          "text": "You need help? You get it here.",
+          "buttons": [
+            {
+              "text": "Discord",
+              "link": "https://router.vuejs.org/"
+            }
+          ]
+        },
+        {
+          "step": "Links",
+          "title": "Themes",
+          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "buttons": [
+            {
+              "text": "VuetifyJS",
+              "link": "https://router.vuejs.org/"
+            },
+            {
+              "text": "Creator",
+              "link": "/lost"
+            }
+          ]
+        }
+      ]
     }
-}
+  }
 }
 

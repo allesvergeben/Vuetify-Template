@@ -1,6 +1,5 @@
 <template>
     <v-footer
-            absolute
             app
             class="elevation-12"
             color="primary"
