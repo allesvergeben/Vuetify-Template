@@ -8,6 +8,7 @@
         <v-layout justify-center>
             <span class="mr-2" style="color: white"> &copy; {{ new Date().getFullYear() }}. All rights reserve </span>
         </v-layout>
+
     </v-footer>
 </template>
 

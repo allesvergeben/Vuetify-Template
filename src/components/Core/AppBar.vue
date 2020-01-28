@@ -4,7 +4,7 @@
             color="primary"
             dark
     >
-        <v-btn icon @click="toggleDrawer">
+        <v-btn @click="toggleDrawer" class="hidden-md-and-up" icon>
             <v-icon>mdi-menu</v-icon>
         </v-btn>
         <div class="d-flex align-center">
@@ -65,19 +65,29 @@
                     </v-list-item>
                 </v-list>
             </v-menu>
+            <v-btn @click="setTheme" icon>
+                <v-icon>mdi-invert-colors</v-icon>
+            </v-btn>
         </v-toolbar-items>
     </v-app-bar>
-
 </template>
 
 <script>
-    import { mapMutations } from 'vuex'
+    import {mapMutations} from 'vuex'
 
     export default {
         name: "CoreAppBar",
         methods: {
             ...mapMutations(['toggleDrawer']),
-        }
+            setTheme() {
+                if (this.$vuetify.theme.dark) {
+                    return (this.$vuetify.theme.dark = false);
+                } else {
+                    return (this.$vuetify.theme.dark = true);
+                }
+            }
+        },
+
     }
 </script>
 

@@ -22,9 +22,7 @@
             CoreAppBar: () => import('./components/Core/Footer'),
             CoreDrawer: () => import('./components/Core/Drawer'),
         },
-
         data: () => ({
-            //
         }),
     };
 </script>
