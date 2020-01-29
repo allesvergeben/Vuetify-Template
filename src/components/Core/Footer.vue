@@ -5,11 +5,24 @@
             color="primary"
             height="66"
     >
-        <v-layout justify-center>
-            <span class="mr-2" > &copy; {{ new Date().getFullYear() }}. All rights reserve </span>
-        </v-layout>
+
+
+                    <div class="caption pr-md-12">
+                        &copy;{{ new Date().getFullYear() }}. All rights reserved
+                    </div>
+
+          <v-spacer/>
+                <v-btn
+                        class="mr-10"
+                        text
+                        aria-label="About"
+                        to="/about"
+                >
+                    About
+                </v-btn>
 
     </v-footer>
+
 </template>
 
 <script>

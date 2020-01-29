@@ -2,19 +2,19 @@
   "home": {
     "hero": {
       "title": "VuetifyTemplate",
-      "description": "A simple Vuetify Template with structure and preinstalled plugins <br /> <span style=\"font-style: italic\">This isn't a Style Template, only a Code Template!</span>"
+      "description": "Eine einfache Vuetify-Vorlage mit Struktur und vorinstallierten Plugins <br /> <span style=\"font-style: italic\">Dies ist keine Stilvorlage, sondern nur eine Code-Vorlage!</span>"
     },
     "install": {
-      "header": "All plugins and implementations",
+      "header": "Alle Plugins und Implementierungen",
       "subheader": "Plugins",
       "plugins": [
         {
           "title": "vue-router",
-          "subtitle": "Route between different Views",
-          "text": "Example Views: Home and About <br /> router is configured in /plugins/router.js",
+          "subtitle": "Navigiert zwischen verschiedenen Ansichten",
+          "text": "Beispielansichten: Home und About <br /> Der Router wird in /plugins/router.js konfiguriert",
           "buttons": [
             {
-              "text": "Docs",
+              "text": "Doks",
               "link": "https://router.vuejs.org/"
             },
             {
@@ -25,11 +25,11 @@
         },
         {
           "title": "vuex",
-          "subtitle": "The Vuex Store is storing application states",
-          "text": "Implemented in the Side Drawer. <br /> The Config files are Store.js and Vuex.js",
+          "subtitle": "Der Vuex Store speichert Anwendungszustände",
+          "text": "Im Side Drawer implementiert. <br /> Die Konfigurationsdateien sind Store.js und Vuex.js",
           "buttons": [
             {
-              "text": "Docs",
+              "text": "Doks",
               "link": "https://vuex.vuejs.org/guide/"
             },
             {
@@ -44,11 +44,11 @@
         },
         {
           "title": "Themes",
-          "subtitle": "A customizable light and dark theme",
-          "text": "There is a Theme-Switch implemented in the App-Bar. <br /> It is configured in the vuetify.js",
+          "subtitle": "Anpassbare Themes: Hell und Dunkel",
+          "text": "In der App-Bar ist ein Theme-Switch implementiert. <br /> Themes werden in der Datei vuetify.js konfiguriert.",
           "buttons": [
             {
-              "text": "Docs",
+              "text": "Doks",
               "link": "https://vuetifyjs.com/en/customization/theme"
             },
             {
@@ -59,11 +59,11 @@
         },
         {
           "title": "vue-i18n",
-          "subtitle": "Internationalization plugin",
-          "text": "The whole project is internationalized. Language Files are stored in /locales. The config File is i18n.js.",
+          "subtitle": "Internationalisierungs-Plugin",
+          "text": "Das gesamte Projekt ist internationalisiert. Die Sprachdateien werden in /locales gespeichert. Die Konfigurationsdatei ist i18n.js.",
           "buttons": [
             {
-              "text": "Docs",
+              "text": "Doks",
               "link": "https://kazupon.github.io/vue-i18n/started.html"
             },
             {
@@ -83,9 +83,9 @@
       "subheader": "Start",
       "steps": [
         {
-          "step": "Clone",
-          "title": "Use the GitHub-Repository as a Template",
-          "text": "Click below, to get to the Git-Repository. After that, click on the green template button at the top right to setup your own Repository based on the VuetifyTemplate.",
+          "step": "Klonen",
+          "title": "Verwende das GitHub-Repository als Vorlage",
+          "text": "Klicken Sie unten auf den Button um zum Git-Repository zu gelangen. Danach auf den grünen Template Button oben rechts, um das eigene Repository auf der Basis des VuetifyTemplates einzurichten.",
           "buttons": [
             {
               "text": "GitHub Repository",
@@ -94,9 +94,9 @@
           ]
         },
         {
-          "step": "Need help?",
-          "title": "Join the Vuetify Discord",
-          "text": "Get help immediately from the development team and other community members in the official Discord server and get access to private support channels.",
+          "step": "Hiiilfee?",
+          "title": "Trete dem Vuetify Discord bei",
+          "text": "Holen Sie sich sofort Hilfe vom Entwicklungsteam und anderen Community-Mitgliedern auf dem offiziellen Discord-Server und erhalten Sie Zugang zu privaten Support-Kanälen.",
           "buttons": [
             {
               "text": "Discord",
@@ -105,9 +105,9 @@
           ]
         },
         {
-          "step": "Suggestions",
-          "title": "Bugs or suggestions for VuetifyTemplate",
-          "text": "If you have any suggestions, improvements or you found bugs. Just go to the Git-Repository and and a ticket.",
+          "step": "Vorschläge",
+          "title": "Fehler oder Vorschläge fürs VuetifyTemplate",
+          "text": "Wenn Sie Vorschläge, Verbesserungen haben oder Sie einen  Fehler  melden wollen, gehen Sie einfach in das Git-Repository und erstellen ein Ticket.",
           "buttons": [
             {
               "text": "GitHub",

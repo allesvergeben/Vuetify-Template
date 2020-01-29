@@ -45,7 +45,7 @@
         {
           "title": "Themes",
           "subtitle": "A customizable light and dark theme",
-          "text": "There is a Theme-Switch implemented in the App-Bar. <br /> It is configured in the vuetify.js",
+          "text": "There is a Theme-Switch implemented in the App-Bar. <br /> Themes are configured in the vuetify.js",
           "buttons": [
             {
               "text": "Docs",
@@ -107,7 +107,7 @@
         {
           "step": "Suggestions",
           "title": "Bugs or suggestions for VuetifyTemplate",
-          "text": "If you have any suggestions, improvements or you found bugs. Just go to the Git-Repository and and a ticket.",
+          "text": "If you have any suggestions, improvements or you found bugs. Just go to the Git-Repository and create a ticket.",
           "buttons": [
             {
               "text": "GitHub",
