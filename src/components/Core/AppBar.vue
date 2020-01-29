@@ -2,7 +2,6 @@
     <v-app-bar
             app
             color="primary"
-            dark
     >
         <v-btn @click="toggleDrawer" class="hidden-md-and-up" icon>
             <v-icon>mdi-menu</v-icon>
@@ -16,15 +15,6 @@
                     transition="scale-transition"
                     width="40"
             />
-
-            <v-img
-                    alt="Vuetify Name"
-                    class="shrink mt-1 hidden-sm-and-down"
-                    contain
-                    min-width="100"
-                    src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-                    width="100"
-            />
         </div>
 
         <v-spacer/>
@@ -33,6 +23,7 @@
                     href="https://github.com/vuetifyjs/vuetify/releases/latest"
                     target="_blank"
                     text
+                    class="hidden-xs-only"
             >
                 <span class="mr-2">Vuetify - Latest Release</span>
                 <v-icon>mdi-open-in-new</v-icon>
@@ -44,7 +35,6 @@
                             v-on="on"
                     >
                         <v-icon
-                                color="white"
                         >
                             mdi-web
                         </v-icon>

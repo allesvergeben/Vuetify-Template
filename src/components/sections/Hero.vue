@@ -1,23 +1,22 @@
 <template>
     <v-img
-        height="calc(100vh - 66px - 64px)"
+        :height="$vuetify.breakpoint.smAndDown ? 'calc(100vh - 66px - 56px)' : 'calc(100vh - 66px - 64px)'"
         src="https://laurindoerre.de/img/Coding.680796c6.jpg"
+        :gradient="this.$vuetify.theme.dark ? 'to top, rgba(44,44,44, .85), rgba(55, 55, 55, .85)' : ''"
     >
         <v-container fill-height>
                 <v-sheet
                         color="transparent"
                         max-width="500"
+                        class="text-style"
                 >
                     <h1
                             class="mb-4"
                             :class="$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1'"
-                    >
-                        {{ $t('home.hero.title') }}
-                    </h1>
+                            v-text="$t('home.hero.title')"
+                    />
+                    <p class="title font-weight-light" v-html="$t('home.hero.description')" />
 
-                    <p class="title font-weight-light">
-                        {{ $t('home.hero.description') }}
-                    </p>
                 </v-sheet>
         </v-container>
     </v-img>
@@ -25,11 +24,12 @@
 
 <script>
     export default {
-        name: "Hero"
+        name: "Hero",
+        data: () => ({
+        }),
     }
 </script>
 
 <style lang="stylus" scoped>
-    h1, p
-        color var(--v-primary-darken3)
+
 </style>

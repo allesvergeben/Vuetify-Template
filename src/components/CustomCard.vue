@@ -42,7 +42,7 @@
                 default: ''
             },
             buttons: {
-                type: Object,
+                type: Array,
                 default: () => ({
                     text: {
                         type: String,

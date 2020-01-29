@@ -2,7 +2,7 @@
   "home": {
     "hero": {
       "title": "VuetifyTemplate",
-      "description": "A simple Vuetify Template with structure and preinstalled plugins"
+      "description": "A simple Vuetify Template with structure and preinstalled plugins <br /> <span style=\"font-style: italic\">This isn't a Style Template, only a Code Template!</span>"
     },
     "install": {
       "header": "All plugins and implementations",
@@ -11,60 +11,68 @@
         {
           "title": "vue-router",
           "subtitle": "Route between different Views",
-          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "text": "Example Views: Home and About <br /> router is configured in /plugins/router.js",
           "buttons": [
             {
-              "text": "Documentation",
+              "text": "Docs",
               "link": "https://router.vuejs.org/"
             },
             {
-              "text": "Code",
-              "link": "/lost"
+              "text": "router.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/router.js"
             }
           ]
         },
         {
           "title": "vuex",
-          "subtitle": "Store states",
-          "text": "Implemented in the Side Drawer",
+          "subtitle": "The Vuex Store is storing application states",
+          "text": "Implemented in the Side Drawer. <br /> The Config files are Store.js and Vuex.js",
           "buttons": [
             {
-              "text": "Documentation",
-              "link": "https://router.vuejs.org/"
+              "text": "Docs",
+              "link": "https://vuex.vuejs.org/guide/"
             },
             {
-              "text": "Code",
-              "link": "/lost"
+              "text": "Store.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/store.js"
+            },
+            {
+              "text": "vuex.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/utils/vuex.js"
             }
           ]
         },
         {
           "title": "Themes",
-          "subtitle": "Custom Themes",
-          "text": "Switch between dark and light theme",
+          "subtitle": "A customizable light and dark theme",
+          "text": "There is a Theme-Switch implemented in the App-Bar. <br /> It is configured in the vuetify.js",
           "buttons": [
             {
-              "text": "Documentation",
-              "link": "https://router.vuejs.org/"
+              "text": "Docs",
+              "link": "https://vuetifyjs.com/en/customization/theme"
             },
             {
-              "text": "Code",
-              "link": "/lost"
+              "text": "vuetify.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/vuetify.js"
             }
           ]
         },
         {
-          "title": "i18n",
-          "subtitle": "Route between different Views",
-          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "title": "vue-i18n",
+          "subtitle": "Internationalization plugin",
+          "text": "The whole project is internationalized. Language Files are stored in /locales. The config File is i18n.js.",
           "buttons": [
             {
-              "text": "Documentation",
-              "link": "https://router.vuejs.org/"
+              "text": "Docs",
+              "link": "https://kazupon.github.io/vue-i18n/started.html"
             },
             {
-              "text": "Code",
-              "link": "/lost"
+              "text": "i18n.js",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/blob/master/src/plugins/i18n.js"
+            },
+            {
+              "text": "locales",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/tree/master/src/locales"
             }
           ]
         }
@@ -76,8 +84,8 @@
       "steps": [
         {
           "step": "Clone",
-          "title": "Use the GitHub Repo as a Template",
-          "text": "Easy just click on the template button at the top right",
+          "title": "Use the GitHub-Repository as a Template",
+          "text": "Click below, to get to the Git-Repository. After that, click on the green template button at the top right to setup your own Repository based on the VuetifyTemplate.",
           "buttons": [
             {
               "text": "GitHub Repository",
@@ -88,26 +96,22 @@
         {
           "step": "Need help?",
           "title": "Join the Vuetify Discord",
-          "text": "You need help? You get it here.",
+          "text": "Get help immediately from the development team and other community members in the official Discord server and get access to private support channels.",
           "buttons": [
             {
               "text": "Discord",
-              "link": "https://router.vuejs.org/"
+              "link": "https://discordapp.com/invite/s93b7Fv"
             }
           ]
         },
         {
-          "step": "Links",
-          "title": "Themes",
-          "text": "Example View: Home and About router is configured in /plugins/router.js",
+          "step": "Suggestions",
+          "title": "Bugs or suggestions for VuetifyTemplate",
+          "text": "If you have any suggestions, improvements or you found bugs. Just go to the Git-Repository and and a ticket.",
           "buttons": [
             {
-              "text": "VuetifyJS",
-              "link": "https://router.vuejs.org/"
-            },
-            {
-              "text": "Creator",
-              "link": "/lost"
+              "text": "GitHub",
+              "link": "https://github.com/allesvergeben/Vuetify-Template/issues"
             }
           ]
         }

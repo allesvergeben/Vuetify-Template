@@ -6,7 +6,7 @@
             height="66"
     >
         <v-layout justify-center>
-            <span class="mr-2" style="color: white"> &copy; {{ new Date().getFullYear() }}. All rights reserve </span>
+            <span class="mr-2" > &copy; {{ new Date().getFullYear() }}. All rights reserve </span>
         </v-layout>
 
     </v-footer>
@@ -14,12 +14,13 @@
 
 <script>
     export default {
-        name: "CoreFooter"
+        name: "CoreFooter",
+        data: () => ({
+
+        }),
     }
 </script>
 
 <style scoped>
-    span {
-        color: white;
-    }
+
 </style>
