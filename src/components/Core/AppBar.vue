@@ -14,7 +14,7 @@
                     src="../../assets/example-logo.png"
                     transition="scale-transition"
                     width="40"
-                    v-on:click="$router.push('/')"
+                    v-on:click="$router.currentRoute.path === '/' ? '' : $router.push('/')"
             />
         </div>
         <v-spacer/>
