@@ -9,7 +9,7 @@ probably not need the sample implementations.
 If you have some other useful things, that should be in here, feel free to make a feature request,
 i will answer asap.
 
-If you want to see the Template live or you want more information about VuetifyTemplate just visit [VuetifyTemplate.com](https://vuetifytemplate.com/).
+If you want to see the Template live or you want more information about VuetifyTemplate just visit [VuetifyTemplate.com](https://preview.vuetifytemplate.com/).
 
 ### Project setup
 ```
